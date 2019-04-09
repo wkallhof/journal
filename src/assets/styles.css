@@ -1,0 +1,52 @@
+
+  /* latin */
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Muli Regular'), local('Muli-Regular'), url(./muli.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+body {
+    background: rgba(252, 252, 252, 1);
+    font-family: 'Muli', sans-serif;
+}
+
+.input-container{
+    max-width: 550px;
+    margin: auto;
+    width: 100%;
+    border: 0;
+    background-color: #fff;
+    height: 100%;
+    margin-top: 35px;
+    overflow: scroll;
+
+    -webkit-app-region: no-drag;
+}
+
+/* Format color in MDE */
+.cm-formatting{
+    color: #ffc0c0;
+}
+
+/* Change toolbar styles for MDE */
+.editor-toolbar {
+    border-top : 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.CodeMirror {
+    height: auto;
+    min-height: 530px;
+    border: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 10px;
+    font: inherit;
+    z-index: 1;
+}

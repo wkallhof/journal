@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "typeRoots": [ "node_modules/@types", "typings" ],
+        "target": "es6",
+        "outDir": "bin/"
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
